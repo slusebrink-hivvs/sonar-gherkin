@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <key>SpellCheck</key>
+        <name>Spelling error in the feature text.</name>
+        <severity>MAJOR</severity>
+        <cardinality>SINGLE</cardinality>
+        <remediationfunction>CONSTANT_ISSUE</remediationfunction>
+        <remediationfunctionbaseeffort>5min</remediationfunctionbaseeffort>
+        <status>READY</status>
+        <description><![CDATA[<HTML><HEAD>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type></HEAD>
+<BODY></BODY></HTML>]]></description>
+        <param>
+            <key>disabledRules</key>
+            <description><![CDATA[Comma separated list of disabled spell checking rules.]]></description>
+            <defaultValue>WHITESPACE_RULE</defaultValue>
+        </param>
+    </rule>
+    <rule>
+        <key>ParserError</key>
+        <name>Gherkin4 Parser Error</name>
+        <severity>BLOCKER</severity>
+        <cardinality>SINGLE</cardinality>
+        <remediationfunction>CONSTANT_ISSUE</remediationfunction>
+        <remediationfunctionbaseeffort>15min</remediationfunctionbaseeffort>
+        <status>READY</status>
+        <description><![CDATA[<HTML><HEAD>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type></HEAD>
+<BODY></BODY></HTML>]]></description>
+    </rule>
+</rules>

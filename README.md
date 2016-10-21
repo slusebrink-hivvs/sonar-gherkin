@@ -2,6 +2,12 @@
 
 implements continuous code inspect for Gherkin (BDD) Lang
 
+[![GitHub release](https://img.shields.io/github/release/silverbulleters/sonar-gherkin.svg?maxAge=2592000)](https://github.com/silverbulleters/sonar-gherkin/releases)
+[![Build Status](http://ci.silverbulleters.org/buildStatus/icon?job=Sonar-Gherkin-Build)](http://ci.silverbulleters.org/job/Sonar-Gherkin-Build/)
+[![SonarQube Tech Debt](https://img.shields.io/sonar/https/sonar.silverbulleters.org/sonar-gherkin-plugin/tech_debt.svg?maxAge=2592000)](https://sonar.silverbulleters.org/component_measures/metric/sqale_index/list?id=sonar-gherkin-plugin)
+[![SonarQube Coverage](https://img.shields.io/sonar/https/sonar.silverbulleters.org/sonar-gherkin-plugin/coverage.svg?maxAge=2592000)](https://sonar.silverbulleters.org/component_measures/domain/Coverage?id=sonar-gherkin-plugin)
+
+
 ![this is real screenshot](./docs/gherkin-scanner.png)
 
 ## Features
